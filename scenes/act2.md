@@ -304,7 +304,7 @@ n: SEGUNDA RONDA: *LUTA!*
 
 [Oh não, todos nos odeiam!](#act2a_social)
 
-[Estás *interessadx* na ruiva?](#act2a_perv)
+[Estás *interessado* na pessoa ruiva?](#act2a_perv)
 
 [Ei, vamos falar sobre o significado da vida.](#act2a_meaning)
 
@@ -403,20 +403,20 @@ b: ...
 
 `bb({eyes:"shock", mouth:"small_talk", body:"chest", MOUTH_LOCK:true})`
 
-b: *SUSPIRO*
+b: *Ai ai*
 
 `bb({mouth:"small_talk"})`
 
 b: TENHO DE AVISAR-TE ACERCA...
 
-[*Mais* do mesmo perigo!](#act2b_louder)
+[De *mais* do mesmo perigo!](#act2b_louder)
 
 {{if _.a2_first_danger=="social"}}
-[Um perigo social *diferente*!](#act2b_different_social)
+[De um perigo social *diferente*!](#act2b_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[Um perigo moral *diferente*!](#act2b_different_moral)
+[De um perigo moral *diferente*!](#act2b_different_moral)
 {{/if}}
 
 [Estás a ignorar o perigo! Isso é perigoso!](#act2b_ignore)
@@ -625,19 +625,19 @@ b: Graças a Deus humano, acho que já me consegues ouvir!
 b: TENHO DE TE AVISAR ACERCA...
 
 {{if _.a2_first_choice=="louder"}}
-[*Ainda mais* do mesmo perigo!](#act2c_louder)
+[De *ainda mais* do mesmo perigo!](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_choice!="louder"}}
-[*Mais* do mesmo perigo!](#act2c_louder)
+[De *mais* do mesmo perigo!](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_danger=="social"}}
-[Um perigo social *diferente*!](#act2c_different_social)
+[De um perigo social *diferente*!](#act2c_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[Um perigo moral *diferente*!](#act2c_different_moral)
+[De um perigo moral *diferente*!](#act2c_different_moral)
 {{/if}}
 
 [Analisaste o ponche antes de beber?](#act2c_punch)
